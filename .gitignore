@@ -24,7 +24,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (important: protect sensitive data)
-.env*
 
 # build and output files
 /build
@@ -35,7 +34,6 @@ logs
 *.log
 
 # IDEs and editors
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -64,3 +62,4 @@ pnpm-lock.yaml
 
 # Optional: Ignore specific files or folders if needed
 # Example: /uploads/
+config.bat
